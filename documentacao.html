@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="pt_br">
+
+    <head>
+   
+        <!-- Não mexer -->   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Link Boostrap N tirar Importante-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <!-- Link dos icons usados -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+
+        <!-- Lin para Css próprio  -->
+        <link rel="stylesheet" type="text/css" href="assets/css/documentacao.css">
+
+        <!-- Link dos icons do boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+        <link rel="shortcut icon" href="assets/img/icon/favicon.ico">
+        
+        <!-- icon in the highest resolution we need it for -->
+        <link rel="icon" sizes="192x192" href="assets/img/icon/android-chrome-192x192.png">
+        <!-- and this one also -->
+        <link rel="icon" type="image/png" href="assets/img/icon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="assets/img/icon/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="assets/img/icon/favicon-16x16.png" sizes="16x16">
+
+
+        <!-- Titulo da pagina -->
+        <title>Irrigação Smart</title>
+
+    </head>
+
+    <body>
+
+        <header> <!-- NavBar -->
+        
+            <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+
+                <div class="container-fluid">
+
+                    <!-- Logomarca na navbar -->
+                    <a class="navbar-brand" href="index.html" id="logomarca">Irrigação Smart</a>
+
+                    <!-- Botão do menu no celular importante -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Divs da Nav bar -->
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <!-- Monitoramento -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" id="linknav"><span class="nav-group-text">Monitoramento</a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link active" href="documentacao.html" id="linknav" aria-current="page"><span class="nav-group-text">Documentação</span></a>
+
+                            </li>
+
+                            <!-- Dropdown sobre nós -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="linknav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sobre Nós
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="sobre.html" id="linknav"><i class="fas fa-users px-2"></i>Sobre</a></li>
+
+                                    <li><a class="dropdown-item" href="galeria.html" id="linknav"><i class="fas fa-images px-2"></i>Galeria</a></li>
+                                        
+                                </ul>
+
+                            </li>
+
+                        </ul> <!-- Fim dos links da nav Bar -->
+
+                        <!-- Botões de login e cadastro nav bar -->
+                        <!-- Botões de login e cadastro nav bar -->
+                        <a href="cadastro.html" class="link-success me-3" id="linknav" style="text-decoration: none;">
+                            Cadastro
+                        </a>
+
+                        <a href="./#login" class="link-success me-3" id="linknav" style="text-decoration: none;">
+                            Login
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </header> <!-- Fim da NavBar -->
+
+	    <main>
+			
+	        <div class="container mt-4 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+              		
+              		        <h2>Inicío</h2>
+
+                            <hr>
+                	
+                	        <p class="lead">Projeto consiste em um irrigador automático controlado por um micro controlador chamado Arduíno Uno, por sua vez controlado por um programa de computador, onde a grande proposta é irrigar uma planta de acordo com o nível de umidade do solo sem a interferência humana, ou seja, com um sensor hidrômetro no solo, medindo o nível de umidade constantemente, o mesmo ativará a bomba de água se o valor de umidade recebido pelo sensor constatar o solo como seco.</p>
+
+                            <div class="text-center mt-2">
+                	
+                                <img src="assets/img/pronto.jpg" class="img-fluid mt-3 shadow p-2 mb-2 bg-body rounded">
+                                
+                                <p><a href="https://uploads.filipeflop.com/2016/08/156.png" class="link-success"><small>Ver imagem original</small></a></p>                	
+
+                            </div>
+                	 
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+ 		    <div class="container mt-2 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+              		
+                            <p class="lead mt-3">Os materiais necessários para o projeto são já conhecidos pelo uso conjunto com arduíno em vários projetos experimentais, são facilmente encontrados na internet e tem baixo custo:
+
+                            <div class="mt-4">
+                                
+                                <ul>
+                                    
+                                    <li>1x - Arduíno UNO R3 <span class="text-muted">(Ou outro modelo)</span></li>
+
+                                    <li>1x - Protoboard</li>
+
+                                    <li>1x - Resistor 220R (1/4W)</li>
+
+                                    <li>1x - Display LCD 16x2 <span class="text-muted">(Opcional)</span></li>
+
+                                    <li>1x - Potenciômetro linear de 10k</li>
+
+                                    <li>1x - Sensor de umidade o solo</li>
+
+                                    <li>1x - Módulo relé 5V</li>
+
+                                    <li>1x - Válvula Solenoide para água 12V 180° (½ x ½)</li>
+
+                                    <li>1x - Fonte 12V</li>
+
+                                    <li>3x - Engate rápido para mangueira de água</li>
+
+                                </ul>
+
+                            </div>
+
+                	        </p>
+                
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-4 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                                
+                            <h2>Arduíno Uno</h2>
+
+                            <hr>
+                                
+                            <p class="lead">Consiste em uma placa de prototipagem que faz a integração com um compilador na qual processa os dados respeitando os comandos e funções da linguagem C/C++, que consiste numa linguagem de programação de baixo nível. Em relação ao modelo do micro controlador,foi escolhido o Uno, considerando sua <mark>capacidade de memória, a quantidade de portas presentes e seu baixo custo.</mark></p>
+
+                            <div class="text-center mt-2">
+                                
+                                <img src="assets/img/uno.jpg" class="img-fluid mt-3 shadow p-2 mb-2 bg-body rounded">
+                                
+                                <p><a href="http://localhost/tcc1/assets/img/uno.jpg" class="link-success"><small>Ver imagem</small></a></p>                	
+
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-4 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                                
+                            <h2>Protoboard</h2>
+
+                            <hr>
+                                
+                            <p class="lead">Basicamente protoboard é uma matriz de matriz de contato, ou placa de ensaio (ou em inglês
+                                            breadboard) é uma placa com furos de furos de conexões condutoras para montagem de circuitos elétricos experimentais.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-4 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                        
+                            <h2>Válvula solenoide</h2>
+
+                            <hr>
+                            
+                            <p class="lead">Uma válvula solenoide é um dispositivo que libera ou bloqueia o fluxo de um fluido, que pode ser água, ar comprimido/vácuo, gás, óleo e seu acionamento é elétrico.</p>
+
+                        </div>
+
+                    </div>
+
+                 </div>
+
+            </div>
+
+            <div class="container mt-4 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                                
+                            <h2>Sensor de Umidade</h2>
+
+                            <hr>
+                                
+                            <p class="lead">Um sensor de umidade do solo funciona exposto à condições do tempo, sendo um instrumento resistente à corrosão. Estes sensores de umidade da terra possuem instalação simples.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-4 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                                
+                            <h2>Fonte 12V</h2>
+
+                            <hr>
+                                
+                            <p class="lead">A Fonte de Alimentação Chave ada 12V 1A é um produto muito utilizado na construção de projetos de automação residencial e na alimentação de pequenos circuitos, como, por exemplo, LEDS, câmeras de segurança, aparelhos eletroeletrônicos que exijam fontes com 12V e corrente de saída nominal de 1A.</p>
+
+                            <div class="mt-5 text-center">
+                        
+                  	            <p>
+
+                                    <a class="btn btn-outline-success rounded-pill" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Composição
+                                    </a>
+
+          					    </p>
+
+                            </div>
+
+                            <div class="collapse" id="collapseExample">
+
+                                <div class="card card-body">
+                                    
+                                    <img src="assets/img/composicao.png" class="img-fluid mt-3 shadow p-2 mb-2 bg-body rounded">              	
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-5 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                            
+                            <div class="mt-4 text-center">
+                                
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/sv9dDtYnE1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-5 text-justify">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-2">
+                                
+                            <h2>Downloads</h2>
+
+                            <hr>
+                                
+                            <p class="lead">Faça o download da documentação completa ou dos códigos-fontes do arduíno:
+
+                                <ul>
+                                        
+                                    <li><a href="https://www.mediafire.com/file/t677bms1mqai1ja/codigo_fonte.txt/file" class="link-success">Código-Fonte</a></li>
+
+                                    <li><a href="https://www.mediafire.com/file/iy1futvx3qudv9n/TCC+-+IrrigaçãoSmart.docx/file" class="link-success">Documentação</a></li>
+
+                                </ul>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+	    </main>
+
+        
+        <footer class="my-5 pt-5 mt-1 text-muted text-center text-small">
+        
+            <p class="mb-1" id="fim">&copy; 2020–2021 <b>Irrigação Smart</b></p> 
+
+            <a href="https://github.com/marcosguisleri/Irrigacao_Smart.git" class="mt-2" id="links"><i class="bi bi-github px-3">View||Follow</i></a>
+
+        </footer>
+        
+        <!-- Link Java do Boostrap N tirar -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
+
+
+

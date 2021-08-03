@@ -1,0 +1,95 @@
+#logomarca{
+          color: #28a42a;
+          font-family: Trebuchet MS;
+        }
+
+        #logomarca:hover{
+          color: #008B00;
+          font-family: Trebuchet MS;
+
+        }
+
+
+  #linknav {
+            transition: ease-in-out color .15s;
+            font-family: Trebuchet MS;
+            font-weight: bold;
+            text-decoration: none;
+          }
+  #linknav:hover {
+            color: #28a42a;
+            text-decoration: none;
+
+          }
+
+  .btn btn-outline-success{
+            color: #28a42a;
+            border-color: #28a42a;
+            text-decoration: nome;
+          }
+
+  #tituloform  {
+          color: #28a42a;
+          font-family: Trebuchet MS;
+          
+        }
+
+     #tituloform:hover{
+          color: #008B00;
+          font-family: Trebuchet MS;
+          
+        }  
+
+
+  
+
+    h2{
+          color: #28a42a;
+          font-family: Trebuchet MS;
+          
+        }
+
+
+
+     h2:hover{
+          color: #008B00;
+          font-family: Trebuchet MS;
+          
+        }  
+
+     #nomes{
+        color: #28a42a;
+          font-family: Trebuchet MS;
+     }
+
+     #nomes:hover{
+       color: #008B00;
+          font-family: Trebuchet MS;
+     }
+
+
+
+  #fim:hover{
+      color: #28a42a;
+    }
+
+  a{
+    text-decoration:none;
+  }
+
+  #links {
+    transition: ease-in-out color .15s;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-decoration: none;
+    color: #28a42a;
+    }
+
+#links:hover {
+      color: #008B00;
+      text-decoration: none;
+
+    }
+
+   
+  

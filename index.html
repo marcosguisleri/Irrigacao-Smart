@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="pt_br">
+
+    <head>
+   
+        <!-- Não mexer -->   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Link Boostrap N tirar Importante-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <!-- Link dos icons usados -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+
+        <!-- Lin para Css próprio  -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+        <!-- Link dos icons do boostrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+        <link rel="shortcut icon" href="assets/img/icon/favicon.ico">
+        
+        <!-- icon in the highest resolution we need it for -->
+        <link rel="icon" sizes="192x192" href="assets/img/icon/android-chrome-192x192.png">
+        <!-- and this one also -->
+        <link rel="icon" type="image/png" href="assets/img/icon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="assets/img/icon/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="assets/img/icon/favicon-16x16.png" sizes="16x16">
+
+        <!-- Titulo da pagina -->
+        <title>Irrigação Smart</title>
+
+    </head>
+
+    <body>
+
+	   	<header> <!-- NavBar -->
+	   		
+	   		<nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top">
+
+			  <div class="container-fluid">
+
+			  	<!-- Logomarca na navbar -->
+			    <a class="navbar-brand" href="index.html" id="logomarca">Irrigação Smart</a>
+
+			    <!-- Botão do menu no celular importante -->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+			      <span class="navbar-toggler-icon"></span>
+
+			    </button>
+
+			    <!-- Divs da Nav bar -->
+			    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+			      	<!-- Monitoramento -->
+			        <li class="nav-item">
+
+			          <a class="nav-link active" aria-current="page" href="monitoramento.html" id="linknav"><span class="nav-group-text">Monitoramento</span></a>
+
+			        </li>
+
+			        <li class="nav-item">
+
+			          <a class="nav-link active" href="documentacao.html" id="linknav" aria-current="page"><span class="nav-group-text">Documentação</span></a>
+
+			        </li>
+
+			        <!-- Dropdown sobre nós -->
+			        <li class="nav-item dropdown">
+
+			          <a class="nav-link dropdown-toggle active" href="#" id="linknav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Sobre Nós
+			          </a>
+
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+			            <li><a class="dropdown-item" href="sobre.html" id="linknav"><i class="fas fa-users px-2"></i>Sobre</a></li>
+
+			            <li><a class="dropdown-item" href="galeria.html" id="linknav"><i class="fas fa-images px-2"></i>Galeria</a></li>
+
+			          </ul>
+
+			        </li>
+			        
+			      </ul> <!-- Fim dos links da nav Bar -->
+
+			      <!-- Botões de login e cadastro nav bar -->
+			      <a href="cadastro.html" class="link-success me-3" id="linknav" style="text-decoration: none;">
+			      	Cadastro
+			      </a>
+
+			      <a href=".#login" class="link-success me-3" id="linknav" style="text-decoration: none;">
+			      	Login
+			      </a>
+
+			</nav>
+
+	   	</header> <!-- Fim da NavBar -->
+
+        <main> <!-- Corpo do site -->
+
+            <!-- Intro -->
+            <div class="container col-xxl-8 px-4 py-5">
+
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+                    <!-- Div da imagem -->
+
+                    <div class="col-10 col-sm-8 col-lg-6 col-md-12">
+
+                        <img src="assets/img/planta.png" class="d-block mx-lg-auto img-fluid mb-5 ps-5 " alt="Erro" width="700" height="500" loading="lazy">
+
+                    </div>
+
+                    <!-- Div do texto -->
+
+                    <div class="col-lg-6">
+
+                        <h1 class="display-5 fw-bold lh-1 mb-3" id="tituloform">Projeto de irrigação inteligente</h1>
+
+                        <h4>Já pensou em automatizar a irrigação da sua planta?</h4>
+
+                        <p class="lead">Dispositivo de irrigação de baixo custo baseado em Arduíno, onde o nível de umidade do solo define quando a planta será regada.</p>
+
+                        <!-- Div dos botões -->
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+                            <!-- Butões -->
+                            <a href="#login">
+                                <button type="button" class="btn btn-outline-success btn-lg px-4 me-md-2 rounded-pill" id="loginbutton">Monitoramento</button>
+                            </a>
+                            
+                        </div> <!-- Fim div dos botões -->
+
+                    </div>
+
+                </div>
+
+            </div> <!-- Fim -->
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="h-100 p-5  text-center">
+
+                            <h2 id="tituloform">Sobre Nós</h2>
+
+                            <p class="mt-3 text-justify" style="font-size: 18px;">Projeto se originou de um TCC(Trabalho de Conclusão de Curso) na 
+                                Etec Professor Alberto Feres na cidade de Araras,referente ao curso técnico de (Informática para Internet) com duração de 1 ano e 6 meses.
+                                A ideia surgiu de 4 alunos que tinham objetivo de trazer uma solução de 
+                                automatização de baixo custo para irrigação de plantas domésticas de forma inteligente.</p>
+
+                            <a href="sobre.html">
+
+                                <button class="btn btn-outline-success mt-3 rounded-pill" type="button" id="loginbutton">Saiba mais</button>
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div> <!-- Fim -->
+
+            <div class="container" id="login">
+
+				<div class="py-5 text-center">
+		  
+					<h2 id="tituloform">Faça o login</h2>
+							  
+				</div>
+
+				<form class="" method="" action="#">
+
+				<div class="row d-flex justify-content-center">
+		  
+					<div class="col-sm-12 col-md-5">
+		  
+						<div class="mb-3">
+		  
+							<label for="formGroupExampleInput" class="form-label" id="tituloform">USUÁRIO</label>
+		  
+							<input type="text" name="username" class="form-control shadow-sm p-2 mb-2 bg-body rounded rounded-pill" id="formGroupExampleInput" placeholder="Digite seu username..." required>
+		  
+						</div>
+							  
+					</div>
+		  
+				</div>
+						  
+				<div class="row d-flex justify-content-center">
+		  
+						<div class="col-sm-12 col-md-5">
+		  
+							<div class="mb-3">
+		  
+								<label for="formGroupExampleInput2" class="form-label" id="tituloform">SENHA</label>
+		  
+								<input type="password" name="senha" required class="form-control shadow-sm p-2 mb-2 bg-body rounded rounded-pill" id="formGroupExampleInput2" placeholder="Digite sua senha...">
+		  
+							</div>
+		  
+						</div>
+						  
+				</div>
+		  
+				<div class="row d-flex justify-content-center">
+		  
+						<div class="col-sm-12 col-md-5">
+		  
+							 <div class="mb-3">
+		  
+								<a href="cadastro.html" class="link-success" id="links">Não possui uma conta?</a>
+		  
+							</div>
+		  
+						</div>
+						  
+				</div>
+		  
+				<div class="row d-flex justify-content-center">
+		  
+						<div class="col-sm-12 col-md-5">
+		  
+							<div class="mb-3 ">
+		  
+								<button class="w-100 btn btn-outline-success rounded-pill" type="submit"  value="entrar" name="entrar">Continuar</button>
+									  
+							</div>
+		  
+						</div>
+						  
+				</div>
+
+				</form>
+					
+			</div>
+
+            <div class="container mt-5">
+				
+				<div class="row mt-5">
+
+					<div class="col-sm-1 col-md-6 col-lg-3 mt-5">
+
+						<div class="text-center mt-5">
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-muted flex-shrink-0 mt-2" viewBox="0 0 16 16">
+								<path d="M13.5 0a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V7.5h-1.5a.5.5 0 0 0 0 1H15v2.75h-.5a.5.5 0 0 0 0 1h.5V15h-1.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .5-.5V.5a.5.5 0 0 0-.5-.5h-2zM7 1.5l.364-.343a.5.5 0 0 0-.728 0l-.002.002-.006.007-.022.023-.08.088a28.458 28.458 0 0 0-1.274 1.517c-.769.983-1.714 2.325-2.385 3.727C2.368 7.564 2 8.682 2 9.733 2 12.614 4.212 15 7 15s5-2.386 5-5.267c0-1.05-.368-2.169-.867-3.212-.671-1.402-1.616-2.744-2.385-3.727a28.458 28.458 0 0 0-1.354-1.605l-.022-.023-.006-.007-.002-.001L7 1.5zm0 0l-.364-.343L7 1.5zm-.016.766L7 2.247l.016.019c.24.274.572.667.944 1.144.611.781 1.32 1.776 1.901 2.827H4.14c.58-1.051 1.29-2.046 1.9-2.827.373-.477.706-.87.945-1.144zM3 9.733c0-.755.244-1.612.638-2.496h6.724c.395.884.638 1.741.638 2.496C11 12.117 9.182 14 7 14s-4-1.883-4-4.267z"/>
+							</svg>
+		  
+							<div>
+		  
+							  <h4 class="fw-bold mb-0 text-center" id="tituloform">Umidade do solo</h4>
+		  
+							  <p class="text-center">Confira gráficos com monitoramento da umidade presente no solo.</p>
+		  
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-sm-1 col-md-6 col-lg-3 mt-5">
+
+						<div class="text-center mt-5">
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-muted flex-shrink-0 mt-2" viewBox="0 0 16 16">
+								<path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z"/>
+								<path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z"/>
+							</svg>
+		
+							<div>
+		
+								<h4 class="fw-bold mb-0 text-center" id="tituloform">Histórico</h4>
+			
+								<p class="text-center">Tenha o histórico das últimas vezes que sua planta foi regada.</p>
+		
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-sm-1 col-md-6 col-lg-3 mt-5">
+
+						<div class="text-center mt-5">
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-muted flex-shrink-0 mt-2" viewBox="0 0 16 16">
+								<path d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm-3.5 1.5a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm.747-8.498a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973zM8.5 2a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4.002 4.002 0 0 1 8.5 2z"/>
+							</svg>
+		
+							<div>
+		
+								<h4 class="fw-bold mb-0 text-center" id="tituloform">Tempo e clima</h4>
+			
+								<p class="text-center">Caso tenha chovido, os sensores detectaram e não regaram a planta.</p>
+		
+							</div>
+
+						</div>
+	  
+					</div>
+
+					<div class="col-sm-1 col-md-6 col-lg-3 mt-5">
+
+						<div class="text-center mt-5">
+
+							<svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em" fill="currentColor" class="bi text-muted flex-shrink-0 mt-2" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10c0 0 2.5 1.5 5 .5s5-.5 5-.5c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+								<path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+							</svg>
+		
+							<div>
+		
+								<h4 class="fw-bold mb-0 text-center" id="tituloform">Sustentabilidade</h4>
+			
+								<p class="text-center">Uso sustentável de água na irrigação e, economização de esforço.</p>
+		
+							</div>
+
+						</div>
+
+				    </div>
+
+			    </div>
+
+            </div>
+		
+        </main> <!-- Fim main -->
+
+        <footer class="my-5 pt-5 mt-1 text-muted text-center text-small">
+        
+            <p class="mb-1" id="fim">&copy; 2020–2021 <b>Irrigação Smart</b></p> 
+
+            <a href="https://github.com/marcosguisleri/Irrigacao_Smart.git" class="mt-2" id="links"><i class="bi bi-github px-3">View||Follow</i></a>
+
+        </footer>
+        
+        <!-- Link Java do Boostrap N tirar -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
+

@@ -1,0 +1,84 @@
+body{
+    background-color: #FFFFFF;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  #titleform{
+      color: #28a42a;
+      font-family: Trebuchet MS;
+      
+    }
+
+ #ttitleform:hover{
+      color: #008B00;
+      font-family: Trebuchet MS;
+      
+    } 
+
+ p{
+        font-family:Trebuchet MS;
+        font-weight: lighter;
+      }
+
+      #logomarca{
+      color: #28a42a;
+      font-family: Trebuchet MS;
+    }
+
+    #logomarca:hover{
+      color: #008B00;
+      font-family: Trebuchet MS;
+
+    }
+
+
+  #linknav {
+            transition: ease-in-out color .15s;
+            font-family: Trebuchet MS;
+            font-weight: bold;
+            text-decoration: nome;
+          }
+  #linknav:hover {
+            color: #28a42a;
+            text-decoration: no      ne;
+
+          }
+
+  #tituloform  {
+          color: #28a42a;
+          font-family: Trebuchet MS;
+          
+        }
+
+     #tituloform:hover{
+          color: #008B00;
+          font-family: Trebuchet MS;
+          
+        }  
+
+        #links {
+          transition: ease-in-out color .15s;
+          font-family: Trebuchet MS;
+          font-weight: bold;
+          text-decoration: none;
+          color: #28a42a;
+          }
+    
+      #links:hover {
+            color: #008B00;
+            text-decoration: none;
+    
+          }
