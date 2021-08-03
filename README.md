@@ -16,6 +16,15 @@ https://www.mediafire.com/file/iy1futvx3qudv9n/TCC_-_Irriga%25C3%25A7%25C3%25A3o
 ![Tela Inicial](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/tela_inicial.png
 )
 
-![Tela Inicial Mobile](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/mobile_inicial.jpeg)
+# Login
+![Tela Inicial Mobile](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/mobile_login.jpeg)
+
+# Monitoramento
+![Tela Inicial Mobile](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/monitoramento.png
+)
+
+# Login
+![Tela Inicial Mobile](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/tela_login.png
+)
 
 
