@@ -9,4 +9,12 @@ Dispositivo de irrigação de baixo custo baseado em Arduíno, onde o nível de 
 Projeto se originou de um TCC(Trabalho de Conclusão de Curso) na Etec Professor Alberto Feres na cidade de Araras,referente ao curso técnico de (Informática para Internet) com duração de 1 ano e 6 meses.
 A ideia surgiu de 4 alunos que tinham objetivo de trazer uma solução de automatização de baixo custo para irrigação de plantas domésticas de forma inteligente.
 
+## Documentação
 https://www.mediafire.com/file/iy1futvx3qudv9n/TCC_-_Irriga%25C3%25A7%25C3%25A3oSmart.docx/file
+
+# Screenshots
+
+## Tela Inicial
+![Tela Inicial](
+
+
