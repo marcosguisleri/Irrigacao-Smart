@@ -12,9 +12,10 @@ A ideia surgiu de 4 alunos que tinham objetivo de trazer uma solução de automa
 ## Documentação
 https://www.mediafire.com/file/iy1futvx3qudv9n/TCC_-_Irriga%25C3%25A7%25C3%25A3oSmart.docx/file
 
-# Screenshots
+# Tela Inicial
+![Tela Inicial](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/tela_inicial.png
+)
 
-## Tela Inicial
-![Tela Inicial](
+![Tela Inicial Mobile](https://github.com/marcosguisleri/Irrigacao-Smart/blob/master/assets/img/readme/mobile_inicial.jpeg)
 
 
